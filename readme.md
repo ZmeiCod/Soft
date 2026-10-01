@@ -1,3 +1,18 @@
+# 📱 PhoneDrop
+
+[![Python](https://img.shields.io/badge/Python-3.6+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero-orange.svg)]()
+
+Легковесный HTTP-сервер на чистом Python для мгновенной беспроводной передачи файлов между мобильными устройствами (телефоны, планшеты) и ПК по локальной сети. 
+
+Идеальное решение, когда USB-кабель сломан, потерян или устройство не определяется системой.
+
+---
+
+
+
+
 netsh advfirewall firewall add rule name="FileServer8080" dir=in action=allow protocol=TCP localport=8080 remoteip=192.168.68.0/24
 
 потом 
